@@ -4,9 +4,9 @@ import static Page.ProductPage.driver;
 
 public class PageFactory
 {
-    private ProductPage productPage;
+    private static ProductPage productPage;
 
-    public ProductPage productPage()
+    public static ProductPage productPage()
     {
         if(productPage ==null)
         {
